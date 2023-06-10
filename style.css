@@ -873,6 +873,18 @@ span {
     }
 }
 
+@media (max-width:431px) {
+       .footer {
+        flex-direction: column-reverse;
+
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
 @media (max-width:382px) {
     .home .home-img {
         margin-top: 10rem;
